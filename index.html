@@ -5,10 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment3</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<style>
+    .sora{
+  font-family: "Sora", serif;
+}
+</style>
 </head>
-<body>
-    <header>
-        
+<body class="sora">
+    <header class="bg-gradient-to-b from-[#FFFFFF]  to-[#EFEBE3]">
+        <!-- Nav Section -->
+        <nav class="flex justify-between items-center w-10/12 mx-auto mb-20">
+            <div><img src="c2-assets/logo-header.png" alt="header logo"></div>
+            <div class="lg:gap-x-8 md:gap-x-4 hidden lg:flex">
+                <h3 class="text-xl text-[#111111] md:text-lg">Product</h3>
+                <h3 class="text-xl text-[#111111] md:text-lg ">Service</h3>
+                <h3 class="text-xl text-[#111111] md:text-lg">Contact us</h3>
+            </div>
+            <div class="lg:gap-x-6 md:gap-x-3 hidden md:flex">
+                <img class="w-6" src="c2-assets/magnifying-glass-solid.svg" alt="Search button">
+                <img class="w-6" src="c2-assets/cart-shopping-solid.svg" alt="Shopping cart button">
+                <button class="text-xl md:text-lg text-[#111111] border-2 rounded-lg px-7 py-2">Login</button>
+                <button class="text-xl md:text-lg text-white px-7 py-2 bg-[#179800] rounded-lg">Registation</button>
+            </div>
+            <div class="lg:hidden md:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              </div>
+        </nav>
+        <!-- Bannder Section -->
+        <div class="w-10/12 mx-auto text-center justify-items-center space-y-8 mb-36">
+            <h1 class="font-semibold text-[54px]">Freshness <span class="text-[#179800]">You Can
+                Count</span> On, Prices You'll Love!</h1>
+            <p class="text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've got you covered every day!</p>
+            <img class="" src="c2-assets/hero-vegetables.png" alt="">
+        </div>
     </header>
+    <main class="w-10/12 mx-auto">
+        <!-- Card Section---card's paragraph has been copied from google -->
+        <section class="mb-36">
+            <h3 class="text-[#179800] font-semibold text-4xl mb-12">Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 space-y-6 lg:grid-cols-3 md:gap-5 lg:space-x-6">
+                    <div class="bg-[#EFEBE3] p-8 rounded-xl justify-items-center text-center"><img class="mb-6 p-6 bg-white rounded-full" src="c2-assets/service.png" alt="">
+                    <h3 class="font-semibold text-2xl mb-3">24/7 Services </h3>
+                    <p class="font-light text-xl">Customers can access products and place orders at any time, day or night, and also receive customer support around the clock</p></div>
+                    <div class="bg-[#EFEBE3] p-8 rounded-xl justify-items-center text-center"><img class="p-6 mb-6 bg-white rounded-full" src="c2-assets/delivery.png" alt="">
+                    <h3 class="font-semibold text-2xl mb-3">Fast Delivery</h3>
+                    <p class="font-light text-xl">You can expect your package or envelope to be delivered by 8 a.m. the next business day in most areas.</p></div>
+                    <div class="bg-[#EFEBE3] p-8 rounded-xl md:col-span-2 justify-items-center text-center lg:col-span-1"><img class="p-6 mb-6 bg-white rounded-full" src="c2-assets/healthy.png" alt="">
+                    <h3 class="font-semibold text-2xl mb-3">Healthy Products </h3>
+                    <p class="font-light text-xl">A service that delivers groceries, including fresh produce, meat, and seafood, to customers' doorsteps </p></div>
+            </div>
+        </section>
+        <!-- Product Section -->
+         <section>
+            
+         </section>
+    </main>
 </body>
 </html>
