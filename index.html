@@ -11,6 +11,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+<!-- poppins link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <style>
     .sora{
   font-family: "Sora", serif;
@@ -18,7 +22,9 @@
 .adlam{
   font-family: "ADLaM Display", serif; /*Used only on 30% off text */
 }
-
+.poppins{
+  font-family: "Poppins", serif; /*used in arrival and offer section */
+}
 </style>
 </head>
 <body class="sora">
@@ -226,6 +232,28 @@
                     </div>
                 </div>
               </div>
+            </div>
+         </section>
+         <!-- Offer Section -->
+         <section class="w-10/12 mx-auto mb-36">
+            <h3 class="text-[#179800] font-semibold text-4xl mt-32 mb-12">Arrival & Offers</h3>
+            <div class="grid grid-cols-1 md:grid-cols-11 lg:grid-cols-11 gap-y-5 md:gap-x-5 lg:gap-x-5">
+                <div class="bg-[#115414] rounded-xl md:col-span-6 lg:col-span-6 grid grid-cols-2 md:grid-cols-1 md:space-y-5 lg:grid-cols-2 items-center p-10">
+                    <div class="space-y-4 lg:space-y-6 justify-items-center">
+                        <img src="c2-assets/dawat-logo.png" alt="">
+                        <button class="poppins px-8 py-5 text-white bg-[#63B76D] rounded-xl text-2xl">Cook Exotic Dishes</button>
+                        <h2 class="poppins text-4xl text-white">UP to <span class="font-bold">20% OFF</span></h2>
+                    </div>
+                    <img src="c2-assets/dawat-mock-up.png" alt="">
+                </div>
+                <div class="bg-[#102861] rounded-xl lg:col-span-5 md:col-span-5 grid grid-cols-2 md:grid-cols-1 md:space-y-5 lg:grid-cols-2 items-center justify-items-center p-10">
+                    <div class="space-y-4 lg:space-y-6 justify-items-center text-center">
+                        <img src="c2-assets/india-gate-logo.png" alt="">
+                        <button class="px-8 py-5 text-white bg-[#2A4D97] rounded-xl text-2xl poppins">World's No.1 Rice</button>
+                        <h2 class="poppins text-4xl text-white">UP to <span class="font-bold">40% OFF</span></h2>
+                    </div>
+                    <img src="c2-assets/india-gate-mock-up.png" alt="">
+                </div>
             </div>
          </section>
     </main>
